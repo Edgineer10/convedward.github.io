@@ -1,0 +1,154 @@
+@charset "utf-8";
+
+@import "../node_modules/bulma/bulma";
+@import url('https://fonts.googleapis.com/css?family=Dosis|Work+Sans:300');
+.hero.is-primary
+{
+    background-color:aquamarine;
+    opacity: 1;
+    height: 150px;
+    .title
+    {
+        color: black;
+    }
+    .subtitle
+    {
+        color:black;
+        font-size:1rem;
+        strong
+        {
+            color: black;
+            font-weight: 600;
+        }
+    }
+    color :black
+ }
+.hero.is-small .hero-body {
+    padding-bottom: 0rem;
+    padding-top: 1rem; }
+
+  @media screen and (min-width: 769px), print
+{
+    .hero.is-medium .hero-body
+    {
+      padding-bottom: 0rem;
+      padding-top: 1rem;
+    }
+}
+  @media screen and (min-width: 769px), print
+{
+    .hero.is-large .hero-body
+    {
+      padding-bottom: 0rem;
+      padding-top: 1rem;
+    }
+}
+
+.hero{
+    position:sticky;
+    top:0;
+    height: 150px;
+    margin-top: 40;
+    z-index: 4;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nav {
+    background-color:rgb(187, 207, 153);
+    position:sticky;
+    opacity: 1;
+    height: 36px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: -0.75rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .navbar {
+        background-color: transparent;
+        box-shadow: transparent;
+        a,a:link{color: white;}
+    }
+    .navbar-nav{
+        margin-left: 16.66667%;
+    width: 100%;
+    }
+}
+.containe
+    {
+    background-color:transparent;
+    box-shadow: transparent;
+    padding-left: -1.5rem;
+    }
+li{
+    display: inline;
+    z-index: 5;
+    padding-right: 9px;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 5px;
+    padding-left: 0px;
+    //padding-bottom: 10px;
+    //padding-top: 10px;
+}
+
+body { background-color: $green;
+    font-family: 'Work Sans', sans-serif;
+    }
+
+.section a:link
+{
+    color: green;
+}
+code
+{
+    color: slategrey;
+    background-color: transparent;
+}
+pre
+{
+    color: black;
+background-color: transparent;
+}
+.table
+{
+    background-color: transparent;
+    border-style: none ;
+    thead tr{background-color: forestgreen;}
+    tbody {
+    tr:nth-child(even) {background-color: rgb(221, 192, 148)}
+    tr:nth-child(odd) {background-color: rgb(255, 255, 255)}
+    }
+}
+
+.has-text-success 
+{
+color: brown !important;
+}
+
+
+.button.is-primary{
+    border-color: transparent;
+    color: seagreen;
+    max-width: 500px;
+    background-color: rgb(252, 252, 252);
+    .is-hovered {background-color: #a0a172;}
+}
+.button.is-primary:hover
+{
+    background-color: #d6df5f;
+    color:rgb(92, 58, 58);
+}
+.button.is-link
+{
+    background-color: rgb(201, 201, 124);
+    :hover{
+        color:rgb(92, 58, 58);}
+    }
+
+.button.is-link:hover
+    {
+        background-color: olive;
+    }

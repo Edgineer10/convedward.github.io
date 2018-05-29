@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+@import "../node_modules/bulma/bulma";
+@import url('https://fonts.googleapis.com/css?family=Dosis|Work+Sans:300');
+*{
+    padding: 0;
+    margin-left: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    min-height: 100%;
+}
+body{
+   // height: 100%; 
+    background-image: url('../images/banner-1.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.wrapper{
+    font-family: 'Work Sans', sans-serif;
+    a:hover{
+        background-color: blueviolet;
+        color: white;
+    }
+    a{
+        color: black;
+    }
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+.top{
+    float: left;
+    padding-right: 20px;
+    padding-top: 30px;
+    h1
+    {
+        float: left;
+    }
+    min-height: 100%;
+    width:100%;
+    padding-bottom:5%;
+    
+}
+.navi{
+    float: right;
+    text-align: right;
+    padding-left: -20px;
+    padding-right: -20px;
+}
+li{
+    display: inline;
+    z-index: 5;
+}
+
+.flex-container {
+    display: flex;
+  }
