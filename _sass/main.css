@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:300|Open+Sans:600|Work+Sans");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  background-size: cover;
+  height: 100vh;
+}
+
+.hero {
+  background-image: url("../images/banner-1.jpeg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+}
+@media screen and (max-width: 425px) {
+  .hero {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 458px) {
+  .hero .title {
+    font-size: 20px !important;
+  }
+  .hero .subtitle {
+    font-size: 10px !important;
+  }
+  .hero h1, .hero h2 {
+    width: 80% !important;
+  }
+}
+.hero img {
+  padding-right: 20px;
+}
+.hero .navbar {
+  padding-top: 15px;
+}
+.hero h1, .hero h2 {
+  width: 45%;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 651px) {
+  .hero-body .button {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+@media screen and (max-width: 650px) {
+  .hero-body .button {
+    padding-right: 8%;
+    padding-left: 8%;
+  }
+}
+.hero-body li {
+  line-height: 30px;
+}
+
+.about-us .columns img {
+  size: 75%; /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.about-us .columns p {
+  vertical-align: center;
+}
+
+.hero-quote {
+  background-image: url("../images/img-quote.jpeg");
+  margin-bottom: 0;
+  background-size: cover;
+  background-position: 0% 44%;
+  color: white;
+}
+.hero-quote .container {
+  padding-bottom: 9rem;
+  padding-top: 9rem;
+}
+.hero-quote .container img {
+  max-width: 15%;
+  height: auto;
+}
+
+.hero-list {
+  /* @media screen and (max-width: 1400px)
+  {
+      .container{
+          //padding-right: 10%;
+          padding-bottom: 1rem !important;
+          }
+  } */
+  margin-bottom: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: black;
+}
+.hero-list ul {
+  list-style: none;
+}
+.hero-list li {
+  background: url("../images/smol.png") no-repeat left top;
+  padding-left: 40px; /* the width of your image + some space */
+  margin: 3px 0;
+}
+@media screen and (min-width: 1316px) {
+  .hero-list {
+    background-image: url("../images/img-howitworks-2.jpeg");
+  }
+  .hero-list .container {
+    padding-left: 32%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hero-list .container {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+.hero-list .container {
+  padding-bottom: 6rem;
+  padding-top: 6rem;
+  vertical-align: middle;
+}
+.hero-list .container img {
+  max-width: 15%;
+  vertical-align: middle;
+  height: auto;
+}
+
+.hero-contact {
+  background-color: #4652B1;
+}
+@media screen and (max-width: 458px) {
+  .hero-contact .h1 {
+    font-size: 10px !important;
+  }
+}
+.hero-contact h1 {
+  padding-bottom: 15px;
+}
+.hero-contact .container {
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  line-height: 30px;
+  font-size: 0.8rem;
+}
+.hero-contact img {
+  vertical-align: middle;
+}
+
+.sub {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, .navbar-brand {
+  font-family: "Dosis", sans-serif;
+}
+
+.button {
+  background-color: orangered !important;
+  color: white;
+  border-color: transparent;
+}
+
+@media screen and (max-width: 458px) {
+  .textitle {
+    font-size: 20px !important;
+  }
+}/*# sourceMappingURL=main.css.map */
